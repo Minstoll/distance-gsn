@@ -1,4 +1,4 @@
-# distance-gsn
+# Biconnectivity and Zinc
 
 Codebase for cut edge and cut node detection on a synthetic dataset, as well as regression on the zinc dataset, with and without resistance distances.
 
