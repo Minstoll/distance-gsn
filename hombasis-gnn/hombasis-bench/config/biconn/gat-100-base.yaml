@@ -1,0 +1,20 @@
+model: 'GATCutPred'
+num_layers: 4
+hidden_dim: 18
+hidden_out_dim: 144
+residual: True
+batch_norm: True
+readout: 'mean'
+num_heads: 8
+batch_size: 128
+epochs: 60
+init_lr: .001
+lr_factor: 0.5
+lr_patience: 10
+min_lr: .00001
+use_counts: False
+count_type: 'resdist'
+count_files: ['biconn_resdist.json']
+idx_list: [0, 1, 2, 3, 4, 5]
+description: 'GAT-100k resistance distance'
+mode: 'node'
